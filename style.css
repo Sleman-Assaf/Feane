@@ -1,0 +1,202 @@
+
+.dance-font{
+font-family: "Dancing Script", cursive;
+}
+.open-sanse-Font{
+font-family: "Open Sans", sans-serif;
+}
+.ms-6{
+    margin-left: 6rem;
+}
+.fs-7{
+    font-size: 16px;
+}
+.navigationBar a,.navigationBar span, .leftSide i{
+    color: #fff;
+}
+.nav-link:focus,
+.nav-link:hover{
+    color: #ffbe33;
+}
+.leftSide i:hover{
+color: #ffbe33;
+}
+.navigationBar span:hover{
+    color:#ffbe33;
+}
+.text-Light{
+    color: #fff !important;
+}
+.btn-warning:hover{
+    background-color: #c88900;
+    border: none;
+}
+.mainSection{
+    background-image: url(asset/images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar-toggler-icon i{
+    color: #ffbe33;
+    border: none;
+}
+.navbar-toggler{
+    border:none;
+    display: flex;
+    align-items: center;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: -5rem;
+    margin-left: -68%;}
+    .carousel-control-prev,.carousel-control-next-icon{
+        display: none;
+    }
+        .carousel .carousel-indicators button {
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+        }
+        
+                .carousel-indicators [data-bs-target]{
+                    background-color: #ffffff;
+                }
+                .carousel-indicators .active{
+                    background-color: #ffbe33;
+                 
+                }
+                                .carousel .carousel-indicators button.active{
+                                   width: 18px;
+                                    height: 18px;
+                          }
+.carousel-control-next{
+    display: none;
+}
+
+.fs-3rem{
+    font-size: 3.5rem;
+}
+.rem-12{
+    margin-bottom: 11rem;
+}
+
+.pt-sm-5{
+    padding-top: 15rem;
+}
+.circleImg img{
+    border-radius:50% ;
+    width: 180px;
+    height: 180px;
+    border:#ffbe33 5px solid;
+}
+.circleImg img:hover{
+   transform:scale(1.1);
+}
+.OurMenuNav{
+    list-style: none;
+    
+}
+.OurMenuNav li{
+    padding: 7px 20px;
+}
+.Active{
+background-color: #222831;
+color: #fff;
+
+
+}
+
+.bg-Food{
+background-color: #f1f2f3;
+border-end-start-radius: 50px;
+
+}
+.FoodImg{
+
+    position: absolute;
+      transform: translate(-50%);
+    left: 50%;
+      
+}
+.FoodImg img{
+    width: 165px;
+
+    
+}
+
+.bg-Food-Daimantion{
+    height: 13rem;
+}
+.cardPosstion{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+
+}
+.foodCoustom.card{
+    height: 420px;
+    z-index: 1;
+}
+.card-body{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+.rounded-cart-Shoping{
+        width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            background: #ffbe33;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+}
+.color-bg{
+    background-color: #222831;
+    
+    
+}
+.center-text{
+    display: flex;
+    align-items: center;
+   
+}
+.py-6{
+    padding: 6rem 0px;
+}
+.inputBook{
+    padding: 7px 15px;
+    width: 100%;
+    margin-bottom: 30px;
+   
+    outline: none;
+    border: 1px solid 1px solid #999;
+}
+.ifreeam{
+    margin-top: 6rem;
+}
+.finalSectaion{
+   
+}
+.footerContact a{
+    text-decoration: none;
+    color: #fff;
+}
+.Social{
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 17px;
+    margin-right: 10px;
+    
+}
